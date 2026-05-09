@@ -52,3 +52,52 @@ body {
         object-position: 100% 40%;
     }
 }
+
+.card-list {
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 27px;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1500px;
+    margin:auto;
+
+    & .card {
+        background-color: rgba(0, 0, 0, 0.501);
+        width: 455px;
+        display: flex;
+        flex-direction: column;
+
+        & img {
+            width: 450px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 19px;
+        }
+
+        & span {
+            color: white;
+            font-size: 41px;
+            font-weight: 450;
+            font-family: "jersey 10";
+        }
+
+        & p {
+            margin-top: 3px;
+            font-family: "jersey 10";
+            font-size: 25px;
+            color: white;
+        }
+
+        & button {
+            background-color: rgb(226, 25, 142);
+            width: 85px;
+            height: 40px;
+            border: none;
+            font-family: "jersey 10";
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
