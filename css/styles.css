@@ -101,3 +101,18 @@ body {
         }
     }
 }
+.footer {
+    background-color: rgb(226, 25, 142);
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 98%;
+    margin: auto;
+    & p {
+        line-height: 60px;
+        text-align: center;
+        font-size: 18px;
+        font-family: "jersey 10";
+        color: white;
+    }
+}
